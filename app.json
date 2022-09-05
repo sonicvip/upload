@@ -1,0 +1,34 @@
+{
+  "name": "filestolinkbot",
+  "description": "Telegram's best getlink bot.",
+  "keywords": [
+    "telegram",
+    "best",
+    "getlink"
+  ],
+  "repository": "https://github.com/SpEcHiDe/AnyDLBot",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "BANNED_USERS": {
+      "description": "Id of banned users",
+      "value": "",
+      "required": false
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }]
+}
